@@ -1,0 +1,19 @@
+a= int(input ("Informe o primeiro número: "))
+b= int(input("Informe o segundo número: "))
+c=int(input("Informe o terceiro número: "))
+
+maior=a
+if(b>maior):
+      maior=b
+if(c>maior):
+      maior=c
+
+print("Maior: ", maior)
+
+menor=a
+if(b<menor):
+      menor=b
+if(c<menor):
+      Menor=c
+
+print("Menor: ", menor)
